@@ -5,7 +5,12 @@ Este projeto contém exemplos de código de "Hello World" para cada console de 1
 
 ## Estrutura do Projeto
 O código está organizado em pastas para cada console:
+### Como Compilar e Testar os Códigos:
+- **Para consoles antigos (ex: NES, Atari 2600)**, você precisará de ferramentas como **CC65** para C ou **Assembler do Atari**.
+- **Para consoles modernos (ex: PS4, Xbox, Switch)**, você precisará de **SDKs oficiais** como o **devkitPro** ou ferramentas como **GCC** e **Visual Studio**.
+- **Para portáteis**, o processo será similar, usando SDKs específicos, como o **devkitARM** para o GBA e **SDK do Nintendo DS**.
 
+Essa estrutura organizada ajudará você a manter o projeto de forma clara e eficiente, enquanto segue criando o "Hello World" em cada console.
 1. **Consoles**:
    - 1ª geração: Magnavox Odyssey
    - 2ª geração: Atari 2600, ColecoVision
@@ -37,9 +42,4 @@ int main() {
     return 0;
 }
 
-### Como Compilar e Testar os Códigos:
-- **Para consoles antigos (ex: NES, Atari 2600)**, você precisará de ferramentas como **CC65** para C ou **Assembler do Atari**.
-- **Para consoles modernos (ex: PS4, Xbox, Switch)**, você precisará de **SDKs oficiais** como o **devkitPro** ou ferramentas como **GCC** e **Visual Studio**.
-- **Para portáteis**, o processo será similar, usando SDKs específicos, como o **devkitARM** para o GBA e **SDK do Nintendo DS**.
 
-Essa estrutura organizada ajudará você a manter o projeto de forma clara e eficiente, enquanto segue criando o "Hello World" em cada console.
